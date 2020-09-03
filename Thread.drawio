@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-16T03:03:01.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="FmEm-mbgNVMvTrUX69Pi" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-03T08:10:39.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="3mvjn72gncfcKKoCk0j3" version="13.6.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2062" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,19 +44,19 @@
             <mxPoint x="240" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-2" value="主线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-2" value="主线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="420" width="100" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-2">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-2" vertex="1">
           <mxGeometry x="45" y="320" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-2">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-2" vertex="1">
           <mxGeometry x="45" y="65" width="10" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-2">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-2" vertex="1">
           <mxGeometry x="45" y="170" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-16" value="等待逻辑层下&#xa;发需要加载&#xa;的资源列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SquJvBe2j_rYiVZZxbCZ-2" source="SquJvBe2j_rYiVZZxbCZ-12" target="SquJvBe2j_rYiVZZxbCZ-12">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-16" value="等待逻辑层下&#xa;发需要加载&#xa;的资源列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;" parent="SquJvBe2j_rYiVZZxbCZ-2" source="SquJvBe2j_rYiVZZxbCZ-12" target="SquJvBe2j_rYiVZZxbCZ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="66" y="86" as="sourcePoint" />
             <mxPoint x="235" y="86" as="targetPoint" />
@@ -66,31 +66,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-4" value="逻辑线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-4" value="逻辑线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="420" width="100" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-4">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-4" vertex="1">
           <mxGeometry x="45" y="140" width="10" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-4">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-4" vertex="1">
           <mxGeometry x="45" y="76" width="10" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SquJvBe2j_rYiVZZxbCZ-4">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="SquJvBe2j_rYiVZZxbCZ-4" vertex="1">
           <mxGeometry x="45" y="320" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-10" value="分析配置数据&lt;br&gt;反序列化逻辑对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-10" value="分析配置数据&lt;br&gt;反序列化逻辑对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="610" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-21" value="下发需要加载的资源列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.846;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SquJvBe2j_rYiVZZxbCZ-5" target="SquJvBe2j_rYiVZZxbCZ-12">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-21" value="下发需要加载的资源列表" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1;entryY=0.846;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SquJvBe2j_rYiVZZxbCZ-5" target="SquJvBe2j_rYiVZZxbCZ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="630" as="sourcePoint" />
             <mxPoint x="329" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-22" value="根据下发资源列表&lt;br&gt;进行加载资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-22" value="根据下发资源列表&lt;br&gt;进行加载资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="780" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SquJvBe2j_rYiVZZxbCZ-18" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SquJvBe2j_rYiVZZxbCZ-18" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="580" width="410" height="150" as="geometry" />
         </mxCell>
       </root>
