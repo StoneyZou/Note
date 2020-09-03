@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T15:11:59.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VMz1KuLAQFECN89sv61H" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-03T08:10:05.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="r6ZBEVwr0tNWGf7TNxvZ" version="13.6.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2062" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-137" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="740.3199999999999" as="sourcePoint" />
+            <mxPoint x="590" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="axtm4wAF14Sa0V-WPrxN-15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="174" y="155" as="sourcePoint" />
@@ -96,6 +102,255 @@
         </mxCell>
         <mxCell id="axtm4wAF14Sa0V-WPrxN-28" value="Job2&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="371" y="324" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="655" as="sourcePoint" />
+            <mxPoint x="231" y="654.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-34" value="主线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="580" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-35" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-34">
+          <mxGeometry x="45" y="130" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-34">
+          <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-37" value="工作线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="580" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-38" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-37">
+          <mxGeometry x="45" y="172" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="640" width="60" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-40" value="Job Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-41" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="680" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-42" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="700" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-43" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="720" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-44" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="740" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-45" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="760" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-46" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-47" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="800" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-49" value="Job1&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="111" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-50" value="Job2&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="111" y="730" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-51" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291" y="759.01" as="sourcePoint" />
+            <mxPoint x="347" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-52" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="axtm4wAF14Sa0V-WPrxN-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="762.01" as="sourcePoint" />
+            <mxPoint x="291" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-53" value="Job1&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="762" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-60" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="735" width="10" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-61" value="Job2&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="177" y="780" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-62" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;Job2的执行依赖Job1的执行完成&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-63" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;Job2的执行依赖Job1的执行完成&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-111" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="584" y="655" as="sourcePoint" />
+            <mxPoint x="640" y="654.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-112" value="主线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="580" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-113" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-112">
+          <mxGeometry x="45" y="130" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-114" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-112">
+          <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-136" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-112">
+          <mxGeometry x="50" y="150" width="10" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-131" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-112">
+          <mxGeometry x="50" y="219" width="10" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-115" value="工作线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="580" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-116" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-115">
+          <mxGeometry x="45" y="99" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-117" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="60" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-118" value="Job Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-119" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="680" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-120" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="700" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-121" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="720" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-122" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="740" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-123" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="760" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-124" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-125" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="800" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-126" value="Job1&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-127" value="Job2&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-128" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="686.01" as="sourcePoint" />
+            <mxPoint x="756" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-129" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="axtm4wAF14Sa0V-WPrxN-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="689.01" as="sourcePoint" />
+            <mxPoint x="700" y="712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-130" value="Job1&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="689" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-132" value="Job2&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="826" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-133" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;Job2的执行依赖Job1的执行完成&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="970" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-138" value="Wait Job1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-166" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="754" y="430.31999999999994" as="sourcePoint" />
+            <mxPoint x="699" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-167" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="583" y="155" as="sourcePoint" />
+            <mxPoint x="639" y="154.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-168" value="主线程" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="529" y="80" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-170" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-168">
+          <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-173" value="工作线程1" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="709" y="80" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-174" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="axtm4wAF14Sa0V-WPrxN-173">
+          <mxGeometry x="45" y="99" width="10" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-175" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="639" y="140" width="60" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-176" value="Job Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="649" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-177" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="180" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-178" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-179" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="220" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-180" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="240" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-181" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="260" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-182" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="280" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-183" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="644" y="300" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-184" value="Job1&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="519" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-186" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699" y="186.01" as="sourcePoint" />
+            <mxPoint x="755" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-188" value="Job1&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-189" value="Job2&lt;br&gt;Exec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="314" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-190" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;Job2的执行依赖Job1的执行完成&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="528" y="470" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-191" value="Wait Job1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="236.75" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-169" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-171" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="220" width="10" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-172" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="289" width="10" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="axtm4wAF14Sa0V-WPrxN-185" value="Job2&lt;br&gt;schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="709" y="220" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
